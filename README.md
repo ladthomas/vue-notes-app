@@ -89,10 +89,4 @@ Les contributions sont les bienvenues ! Veuillez suivre les étapes ci-dessous p
     ```
 5. Créez une Pull Request.
 
-## Licence
 
-Ce projet est sous licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus de détails.
-
----
-
-Inspiré de projets Vue 3 et des exemples de démarrage disponibles sur GitHub, tels que ceux de [WebDevEtc](https://github.com/WebDevEtc/WebDevEtc-Vue3-Example-Starter), [Bezkoder](https://www.bezkoder.com), et le [RealWorld example app](https://github.com/gothinkster/vue-realworld-example-app).
