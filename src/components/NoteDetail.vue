@@ -1,20 +1,20 @@
 <template>
   <div class="note-detail">
     <header class="note-header">
-      <button @click="goBack" class="back-button">Back</button>
+      <button @click="goBack" class="back-button">Retour</button>
     </header>
     <div v-if="note" class="note-content">
       <input v-model="note.title" class="note-title" placeholder="Title" />
-      <textarea v-model="note.content" class="note-body" placeholder="Write your note here..."></textarea>
+      <textarea v-model="note.content" class="note-body" placeholder="Écrivez votre note ici..."></textarea>
       <p class="note-meta">Created: {{ formatDate(note.created) }}</p>
       <p class="note-meta">Last updated: {{ formatDate(note.updated) }}</p>
       <div class="buttons">
-        <button @click="saveNote" class="save-note">Save note</button>
-        <button @click="deleteNote" class="delete-note">Delete note</button>
+        <button @click="saveNote" class="save-note">Sauvegarde note </button>
+        <button @click="deleteNote" class="delete-note">Supprime note</button>
       </div>
     </div>
     <div v-else class="select-note">
-      Select a note to view its content
+        Sélectionnez une note pour en afficher le contenu
     </div>
   </div>
 </template>

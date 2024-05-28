@@ -9,7 +9,7 @@
           @selectNote="selectNote"
         />
       </div>
-      <button class="create-note" @click="createNote">Create Note</button>
+      <button class="create-note" @click="createNote">Cree note</button>
     </aside>
   </template>
   
